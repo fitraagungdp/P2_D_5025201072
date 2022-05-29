@@ -1,14 +1,14 @@
 #No1
 #A
 tX <- c(78, 75, 67, 77, 70, 72, 78, 74, 77)
-Ty <- c(100, 95, 70, 90, 90, 90, 89, 90, 100)
+tY <- c(100, 95, 70, 90, 90, 90, 89, 90, 100)
 
 cat("Mencari Interval", "\n")
 
-interval <- tY - tX
+interval<-tY - tX
 
 cat("maka standart deviasinya adalah ", "\n")
-StandartDev <- sd(dif)
+StandartDev <- sd(interval)
 
 #B
 cat(" menggunakan library BSDA", "\n")
