@@ -25,7 +25,7 @@ zsum.test(mean.x=23500, sigma.x = 3900, n.x = 100,
           conf.level = 0.95)
 
 #A
-ya saya setuju 
+setuju 
 
 #B
 output yang dihasilkan, pertama nilai zhitung adalah 60.256
@@ -33,3 +33,12 @@ nilai p value didapatkan 1. dari hasil perhitungan alternative hypotesis
 didapatkan bahwa mean itu kurang dari 0 dan hal ini
 dinyatakan benar. dari perhitungan tersebut dengan 
 kepercayaan 95% didapatkan hasil 24141.49
+
+#NO3
+#1
+Ho = Bali < Bandung
+H1 = Bali > Bandung
+
+#2
+interval <- 27 - 19
+t.test(interval, mu = 2,79, alt= 'two.sided', conf=0,95, var.eq=TRUE, paired=T)
